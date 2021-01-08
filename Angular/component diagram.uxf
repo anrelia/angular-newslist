@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>672</x>
+      <y>96</y>
+      <w>120</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+
+NewsInput
+Component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>144</y>
+      <w>136</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=)-[&gt;]
+&lt;&lt;property&gt;&gt;
+news: News</panel_attributes>
+    <additional_attributes>20.0;30.0;150.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>120</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-()
+&lt;&lt;event&gt;&gt;
+ok</panel_attributes>
+    <additional_attributes>10.0;30.0;120.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>168</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-()
+&lt;&lt;event&gt;&gt;
+cancel</panel_attributes>
+    <additional_attributes>10.0;30.0;120.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>24</x>
+      <y>96</y>
+      <w>112</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+
+NewsList
+Component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>144</y>
+      <w>160</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-()
+&lt;&lt;event&gt;&gt;
+select: number</panel_attributes>
+    <additional_attributes>10.0;30.0;180.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>80</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;[]
+</panel_attributes>
+    <additional_attributes>10.0;110.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>352</x>
+      <y>24</y>
+      <w>128</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+
+News
+Component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>80</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=[].&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>368</x>
+      <y>248</y>
+      <w>96</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>News
+--
++id: number
++title: string
++text: string
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
